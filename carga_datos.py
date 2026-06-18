@@ -43,6 +43,10 @@ def agregar_pais(paises):
         print("Error: el nombre no puede estar vacio")
         return
     
+    if not nombre.isalpha():
+        print("Error! solo se aceptan letras")
+        return
+    
     for pais in paises:
 
         if pais["nombre"].strip().lower() == nombre.lower():
@@ -79,7 +83,7 @@ def agregar_pais(paises):
             print("Error: solo se aceptan numeros")
 
     continente = input("Ingrese el continente: ")
-    continente = continente.strip()
+    continente = continente.strip().title()
 
     if continente == "":
         print("Error: el continente no puede estar vacio")

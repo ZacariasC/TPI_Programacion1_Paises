@@ -138,18 +138,18 @@ Promedio de superficie: ...
 
 ## Video Explicativo
 
-Link al video:
+https://youtu.be/rZwG4SuRmjw
 
 
 ---
 
 ## Informe PDF
 
-Link al informe:
+Ubicado en la raiz de este repositorio.
 
 ---
 
 ## Repositorio GitHub
 
-Link al repositorio:
+https://github.com/ZacariasC/TPI_Programacion1_Paises.git
 
